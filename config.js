@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md-
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website =process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "Made With LOVE!" 
+global.caption = process.env.CAPTION || global.caption || "Rawr!" 
 
 
 global.devs = "" // Developer Contacts
@@ -34,7 +34,7 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] ======8===================\\
 global.style = process.env.STYLE   || Math.floor(Math.random()*6) || '0'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "false"; 
+global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "true"; 
 global.wlcm  = process.env.WELCOME || process.env.CAN_WELCOME || Math.floor(Math.random()*3)  === 1 ?  "true" : "false" ;  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3
@@ -53,7 +53,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "TRUE"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
@@ -61,7 +61,7 @@ global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xx
 global.api_smd = "https://api-smd.onrender.com/" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
-global.SESSION_ID = process.env.SESSION_ID  || ""  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID  || "FwicmVnaXN0ZXJlZFwiOiBmYWxzZSxcbiAgXCJiYWNrdXBUb2tlblwiOiB7XG4gICAgXCJ0eXBlXCI6IFwiQnVmZmVyXCIsXG4gICAgXCJkYXRhXCI6IFtcbiAgICAgIDEwNyxcbiAgICAgIDc5LFxuICAgICAgMTE1LFxuICAgICAgMjQ0LFxuICAgICAgMTM5LFxuICAgICAgMzIsXG4gICAgICAxMzQsXG4gICAgICAyMzAsXG4gICAgICAxNDQsXG4gICAgICAxNjcsXG4gICAgICAyNDMsXG4gICAgICAxMjUsXG4gICAgICAxNzUsXG4gICAgICAxMzQsXG4gICAgICAyMDUsXG4gICAgICAxNSxcbiAgICAgIDE3MCxcbiAgICAgIDEwMSxcbiAgICAgIDEwNCxcbiAgICAgIDExOVxuICAgIF1cbiAgfSxcbiAgXCJyZWdpc3RyYXRpb25cIjoge30sXG4gIFwiYWNjb3VudFwiOiB7XG4gICAgXCJkZXRhaWxzXCI6IFwiQ0tDOXlMSU9FTHV6MnRRR0dBTWdBQ2dBXCIsXG4gICAgXCJhY2NvdW50U2lnbmF0dXJlS2V5XCI6IFwiY2Y4QlZkNTZtWWpYcURWWEwxNWtZNlc1a0ZCdzdpcWpJTVZoUUhyQ25nND1cIixcbiAgICBcImFjY291bnRTaWduYXR1cmVcIjogXCIzd3E2Tmk4aEZXL0s5RHRNSjZVVlFsa1lmNDJLNFg3RkhPRlkxVDc4UFg2SjNzTGhyUWxnYVM5NFYrdEhVMWRWZVI2VE1ndUxpWW5LQVB6L20wWXhCUT09XCIsXG4gICAgXCJkZXZpY2VTaWduYXR1cmVcIjogXCJETGRRK04rR0xTN1l6bU1oVzVPUWF6UGZzRVNHdi9EWGJuWGFoRmJIeUcydEV2MHVjVmJiUVJNOGlLeUR6T3c0UEJMZTNmelV5MFlPVTg0d0laQWtpZz09XCJcbiAgfSxcbiAgXCJtZVwiOiB7XG4gICAgXCJpZFwiOiBcIjIzNDkwNDI0MTkyNTU6MkBzLndoYXRzYXBwLm5ldFwiLFxuICAgIFwibGlkXCI6IFwiMTY0MzEzMzE4ODM4MzEwOjJAbGlkXCIsXG4gICAgXCJuYW1lXCI6IFwiLlwiXG4gIH0sXG4gIFwic2lnbmFsSWRlbnRpdGllc1wiOiBbXG4gICAge1xuICAgICAgXCJpZGVudGlmaWVyXCI6IHtcbiAgICAgICAgXCJuYW1lXCI6IFwiMjM0OTA0MjQxOTI1NToyQHMud2hhdHNhcHAubmV0XCIsXG4gICAgICAgIFwiZGV2aWNlSWRcIjogMFxuICAgICAgfSxcbiAgICAgIFwiaWRlbnRpZmllcktleVwiOiB7XG4gICAgICAgIFwidHlwZVwiOiBcIkJ1ZmZlclwiLFxuICAgICAgICBcImRhdGFcIjogW1xuICAgICAgICAgIDUsXG4gICAgICAgICAgMTEzLFxuICAgICAgICAgIDI1NSxcbiAgICAgICAgICAxLFxuICAgICAgICAgIDg1LFxuICAgICAgICAgIDIyMixcbiAgICAgICAgICAxMjIsXG4gICAgICAgICAgMTUzLFxuICAgICAgICAgIDEzNixcbiAgICAgICAgICAyMTUsXG4gICAgICAgICAgMTY4LFxuICAgICAgICAgIDUzLFxuICAgICAgICAgIDg3LFxuICAgICAgICAgIDQ3LFxuICAgICAgICAgIDk0LFxuICAgICAgICAgIDEwMCxcbiAgICAgICAgICA5OSxcbiAgICAgICAgICAxNjUsXG4gICAgICAgICAgMTg1LFxuICAgICAgICAgIDE0NCxcbiAgICAgICAgICA4MCxcbiAgICAgICAgICAxMTIsXG4gICAgICAgICAgMjM4LFxuICAgICAgICAgIDQyLFxuICAgICAgICAgIDE2MyxcbiAgICAgICAgICAzMixcbiAgICAgICAgICAxOTcsXG4gICAgICAgICAgOTcsXG4gICAgICAgICAgNjQsXG4gICAgICAgICAgMTIyLFxuICAgICAgICAgIDE5NCxcbiAgICAgICAgICAxNTgsXG4gICAgICAgICAgMTRcbiAgICAgICAgXVxuICAgICAgfVxuICAgIH1cbiAgXSxcbiAgXCJwbGF0Zm9ybVwiOiBcImlwaG9uZVwiLFxuICBcImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcFwiOiAxNzg4MjU0NjU3LFxuICBcIm15QXBwU3RhdGVLZXlJZFwiOiBcIkFBQUFBSkFRXCJcbn0iLAogICJhcHAtc3RhdGUtc3luYy1rZXktQUFBQUFKQVEuanNvbiI6ICJ7XCJrZXlEYXRhXCI6XCJBV1FpVUU4UHNEVXJZcURjanRUTVRLNEw2TDVvWXJUNzhDV0pKTXJNRkZFPVwiLFwiZmluZ2VycHJpbnRcIjp7XCJyYXdJZFwiOjM4NjQxNDE0NzIsXCJjdXJyZW50SW5kZXhcIjoxLFwiZGV2aWNlSW5kZXhlc1wiOlsxLDBdfSxcInRpbWVzdGFtcFwiOlwiMTc4ODExMDY3NDUwOFwifSIKfQ=="  // PUT your SESSION_ID 
 
 
 module.exports = {
@@ -73,10 +73,10 @@ module.exports = {
   VERSION : process.env.VERSION || "3.0.1-developement",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-MD",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  author : process.env.PACK_AUTHER|| "WULU",
+  packname: process.env.PACK_NAME || "WULU",
+  botname : process.env.BOT_NAME  || "WULU-MD",
+  ownername:process.env.OWNER_NAME|| "WULU",
 
 
   errorChat : process.env.ERROR_CHAT || "",
